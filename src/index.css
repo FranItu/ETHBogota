@@ -4,7 +4,7 @@
 body {
   margin: 0;
   line-height: normal;
-  background-image: url();
+  background-image: url(./bg_hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: var(--font);
