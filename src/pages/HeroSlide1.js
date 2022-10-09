@@ -2,8 +2,44 @@ import { useState, useCallback } from "react";
 import EnterProfileContainer from "../components/EnterProfileContainer";
 import PortalPopup from "../components/PortalPopup";
 import "./HeroSlide1.css";
+import Web3Modal from "web3modal";
+import WalletConnectProvider from "@walletconnect/web3-provider";
+import { ethers } from "ethers";
+import { CoinbaseWalletSDK } from "@coinbase/wallet-sdk";
 
+
+const providerOptions = {
+    coinbaseWallet: {
+      package: CoinbaseWalletSDK,
+      options: {
+        appName: "Eth_Bogota",
+        infuraId: {3: "https://polygon-mumbai.infura.io/v3/18265d36c5dd470d83dcc6a9a38b3616" }
+      }
+
+
+    }
+}
 const HeroSlide1 = () => {
+  const {web3Provider, setWeb3Provider } = useState(null);
+  async function connectWallet() {
+    try {
+      let web3Modal = new Web3Modal({
+        catchProvider: false,
+        providerOptions,
+      });
+      const web3ModalInstance = await web3Modal.connect();
+      const web3ModalProvider = new ethers.providers.Web3Provider(web3ModalInstance);
+      if(web3ModalProvider){
+        setWeb3Provider(web3ModalProvider);
+      }
+      consoleLog(web3ModalProvider);
+    }
+    catch(error) {
+      console.error(error)
+
+    }
+  }
+
   const [isEnterProfileContainerOpen, setEnterProfileContainerOpen] =
     useState(false);
 
@@ -33,6 +69,7 @@ const HeroSlide1 = () => {
           openEnterProfileContainer();
           start2();
           start();
+          connectWallet();
         }}>
           <div className="id-button-text-div">
             <div className="identify-yourself-to-begin-thi">

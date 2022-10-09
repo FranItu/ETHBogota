@@ -8,12 +8,10 @@ const HeroSlide11 = () => {
   const onGobackContainerClick = useCallback(() => {
     navigate("/");
   }, [navigate]);
-<>
+<></>
   return (
     <div className="hero-slide-1-div1">
-      <div className="tour-line-div2">
         <div className="inner-daintree-container-div">
-          
           <div className="yasun-natural-reserve-eco-tou">
             <span className="yasun-natural-reserve-container">
               <p className="yasun-natural-reserve">Yasuní Natural Reserve</p>
@@ -21,9 +19,8 @@ const HeroSlide11 = () => {
                 Eco-tourism subscription membership
               </p>
             </span>
-          </div>
+          </div>   
         </div>
-      </div>
       <div className="container-second-macro-div" />
       <div className="right-macro-container-div" />
       <div className="subscribe-button-div">
@@ -46,7 +43,6 @@ const HeroSlide11 = () => {
       <div className="eth-bog-container-div" />
     </div>
   );
-</>
 };
 
 export default HeroSlide11;

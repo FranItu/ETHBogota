@@ -12,9 +12,11 @@ import TextSubsContainer from "./pages/TextSubsContainer";
 import { useEffect } from "react";
 
 function App() {
+
   const action = useNavigationType();
   const location = useLocation();
   const pathname = location.pathname;
+  
 
   useEffect(() => {
     if (action !== "POP") {
@@ -22,6 +24,7 @@ function App() {
     }
   }, [action]);
 
+    
   useEffect(() => {
     let title = "";
     let metaDescription = "";
@@ -64,7 +67,7 @@ function App() {
     }
   }, [pathname]);
 
-  return (
+  return (   
     <Routes>
       <Route path="/" element={<HeroSlide1 />} />
 

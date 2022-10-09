@@ -6,7 +6,7 @@ const EnterProfileContainer = ({ onClose }) => {
   const navigate = useNavigate();
 
   const onEnterProfileButtonContainerClick = useCallback(() => {
-    navigate("/heroslide1");
+    navigate("/heroslide2");
   }, [navigate]);
 
   return (

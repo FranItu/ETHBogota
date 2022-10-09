@@ -17,6 +17,8 @@ body {
   --font-abhaya-libre-extrabold: "Abhaya Libre ExtraBold";
   --font-abhaya-libre: "Abhaya Libre";
   --font-inherit: inherit;
+  background-image: url(./bg_hero_2.png);
+
 
   /* font sizes */
   --font-size-sm: 14px;
