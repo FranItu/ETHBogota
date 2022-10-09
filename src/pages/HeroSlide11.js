@@ -28,6 +28,10 @@ const HeroSlide11 = () => {
       </div>
       <div className="nft-container-div">
         <div className="nft-subcontainer-div" />
+        <img className="nft-green-icon5" alt="" src="../ShamanSnake5.png" />
+        <img className="nft-green-icon4" alt="" src="../ShamanSnake4.png" />
+        <img className="nft-green-icon3" alt="" src="../ShamanSnake3.png" />
+        <img className="nft-green-icon2" alt="" src="../ShamanSnake2.png" />
         <img className="nft-green-icon" alt="" src="../ShamanSnake1.png" />
       </div>
       <img

@@ -187,15 +187,56 @@
   background-color: rgba(217, 217, 217, 0.1);
   width: 358px;
   height: 363px;
+  opacity: .1;
 }
 .nft-green-icon {
   position: absolute;
-  top: 30px;
+  top: 35px;
   left: 35px;
   border-radius: 41px;
   width: 300px;
   height: 300px;
   object-fit: cover;
+}
+.nft-green-icon2 {
+  position: absolute;
+  top: 90px;
+  left: -135px;
+  border-radius: 41px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  opacity: .6;
+}
+.nft-green-icon3 {
+  position: absolute;
+  top: 90px;
+  left: 300px;
+  border-radius: 41px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  opacity: .6;
+}
+.nft-green-icon4 {
+  position: absolute;
+  top: 135px;
+  left: -225px;
+  border-radius: 21px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  opacity: .4;
+}
+.nft-green-icon5 {
+  position: absolute;
+  top: 115px;
+  left: 490px;
+  border-radius: 41px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  opacity: .6;
 }
 .nft-container-div {
   position: absolute;
