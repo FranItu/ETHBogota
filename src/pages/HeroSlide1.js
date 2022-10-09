@@ -9,30 +9,45 @@ import { CoinbaseWalletSDK } from "@coinbase/wallet-sdk";
 
 
 const providerOptions = {
+  binancechainwallet: {
+		package: true
+	  },
     coinbaseWallet: {
       package: CoinbaseWalletSDK,
       options: {
         appName: "Eth_Bogota",
         infuraId: {3: "https://polygon-mumbai.infura.io/v3/18265d36c5dd470d83dcc6a9a38b3616" }
-      }
-
+      },
+      walletconnect: {
+        package: WalletConnectProvider,
+        options: {
+          infuraId: "18265d36c5dd470d83dcc6a9a38b3616"
+        }
+        },
 
     }
 }
 const HeroSlide1 = () => {
-  const {web3Provider, setWeb3Provider } = useState(null);
+  const {wallet, setWallet} = useState(null);
+  const {connection, setConnection} = useState(null);
+  const web3Modal2 = new Web3Modal({
+    network: "rinkeby",
+    theme: "dark",
+    cacheProvider: true,
+    providerOptions 
+  });
   async function connectWallet() {
     try {
       let web3Modal = new Web3Modal({
-        catchProvider: false,
+        cacheProvider: false,
         providerOptions,
       });
+    
       const web3ModalInstance = await web3Modal.connect();
-      const web3ModalProvider = new ethers.providers.Web3Provider(web3ModalInstance);
+      const web3ModalProvider = new ethers.providerOptions.Web3Provider(web3ModalInstance);
       if(web3ModalProvider){
         setWeb3Provider(web3ModalProvider);
       }
-      consoleLog(web3ModalProvider);
     }
     catch(error) {
       console.error(error)
@@ -66,14 +81,14 @@ const HeroSlide1 = () => {
     <>
       <div className="hero-slide-1-div">
         <div className="id-epicbutton-div" onClick={() => {
-          openEnterProfileContainer();
           start2();
           start();
-          connectWallet();
+          openEnterProfileContainer();
         }}>
           <div className="id-button-text-div">
             <div className="identify-yourself-to-begin-thi">
-              Get Started!
+              <h1 className="texto">Get Started!</h1>
+             
             </div>
           </div>
           <img className="ellipse-icon" alt="" src="../ellipse.svg" />
@@ -93,7 +108,10 @@ const HeroSlide1 = () => {
               unique eco-tourism experiences with your NFT.
             </div>
           
-            <img className="serpent-1-icon" alt="" src="../serpent-1@2x.png" onClick={() => start()} />
+            <img className="serpent-1-icon" alt="" src="../serpent-1@2x.png" onClick={() => {
+          connectWallet();
+          start();
+        }}/>
             
           </div>
           <div className="rectangle-div" />
