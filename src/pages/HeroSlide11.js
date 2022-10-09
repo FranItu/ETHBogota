@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./HeroSlide11.module.css";
+import "./HeroSlide11.css";
 
 const HeroSlide11 = () => {
   const navigate = useNavigate();
@@ -9,95 +9,59 @@ const HeroSlide11 = () => {
     navigate("/");
   }, [navigate]);
 
-  const onEthBogota1ImageClick = useCallback(() => {
-    window.open("https://bogota.ethglobal.com/");
-  }, []);
-
   return (
-    <div className={styles.heroSlide1Div}>
+    <div className="hero-slide-1-div1">
       <img
-        className={styles.jBallaPhotography6wmFPgndIcon}
+        className="j-balla-photography-6wmfpgnd-icon1"
         alt=""
         src="../jballaphotography6wmfpgnd--qunsplash-1@2x.png"
       />
-      <div className={styles.tourLineDiv}>
-        <div className={styles.innerDaintreeContainerDiv}>
-          <div className={styles.groupDiv}>
-            <div className={styles.rectangleDiv} />
+      <div className="tour-line-div2">
+        <div className="inner-daintree-container-div">
+          <div className="inner-daintree-container-div">
+            <div className="rectangle-div5" />
             <img
-              className={styles.rectangleIcon}
+              className="rectangle-icon2"
               alt=""
               src="../rectangle2@2x.png"
             />
           </div>
-          <img
-            className={styles.rectangleIcon1}
-            alt=""
-            src="../rectangle-894.svg"
-          />
-          <img className={styles.rectangleIcon2} alt="" />
-          <img
-            className={styles.rectangleIcon3}
-            alt=""
-            src="../rectangle-896.svg"
-          />
-          <div className={styles.yasunNaturalReserveEcoTou}>
-            <span className={styles.yasunNaturalReserveContainer}>
-              <p className={styles.yasunNaturalReserve}>
-                Yasuní Natural Reserve
-              </p>
-              <p className={styles.ecoTourismSubscriptionMembe}>
+          <div className="yasun-natural-reserve-eco-tou">
+            <span className="yasun-natural-reserve-container">
+              <p className="yasun-natural-reserve">Yasuní Natural Reserve</p>
+              <p className="eco-tourism-subscription-membe">
                 Eco-tourism subscription membership
               </p>
             </span>
           </div>
-          <div className={styles.ecuadorDiv}>{`ecuador `}</div>
-          <img
-            className={styles.mapYasuni1Icon}
-            alt=""
-            src="../map-yasuni-1@2x.png"
-          />
         </div>
       </div>
-      <div className={styles.containerSecondMacroDiv} />
-      <img className={styles.rectangleIcon4} alt="" src="../line-right.svg" />
-      <img className={styles.headerIcon} alt="" src="../header.svg" />
-      <img className={styles.star3Icon} alt="" src="../star31.svg" />
-      <img className={styles.star2Icon} alt="" src="../star21.svg" />
-      <img className={styles.star1Icon} alt="" src="../star11.svg" />
-      <img className={styles.linesIcon} alt="" src="../line-left.svg" />
-      <div className={styles.rightMacroContainerDiv} />
-      <div className={styles.subscribeButtonDiv}>
-        <div className={styles.subscribeContainerDiv} />
-        <div className={styles.subsribeTextDiv}>SUBSCRIBE NOW</div>
+      <div className="container-second-macro-div" />
+      <img className="rectangle-icon3" alt="" src="../rectangle-918.svg" />
+      <img className="header-icon" alt="" src="../header.svg" />
+      <img className="star-3-icon" alt="" src="../star3.svg" />
+      <img className="star-2-icon" alt="" src="../star2.svg" />
+      <img className="star-1-icon" alt="" src="../star1.svg" />
+      <img className="lines-icon" alt="" src="../lines.svg" />
+      <div className="right-macro-container-div" />
+      <div className="subscribe-button-div">
+        <div className="subscribe-container-div" />
+        <div className="subsribe-text-div">SUBSCRIBE NOW</div>
       </div>
-      <div className={styles.nftContainerDiv}>
-        <div className={styles.nftSubcontainerDiv} />
-        <img
-          className={styles.nftGreenIcon}
-          alt=""
-          src="../nft-green-icon@2x.png"
-        />
+      <div className="nft-container-div">
+        <div className="nft-subcontainer-div" />
+        <img className="nft-green-icon" alt="" src="../nft-green-icon@2x.png" />
       </div>
       <img
-        className={styles.ayahuascaLogoWhiteW2Icon}
+        className="ayahuasca-logo-white-w-2-icon"
         alt=""
         src="../ayahuasca-logo-white-w-1@2x.png"
       />
-      <div
-        className={styles.gobackContainerDiv}
-        onClick={onGobackContainerClick}
-      >
-        <div className={styles.gobackButtonDiv} />
-        <div className={styles.goBackText}>Go Back</div>
+      <div className="goback-container-div" onClick={onGobackContainerClick}>
+        <div className="goback-button-div" />
+        <div className="go-back-text">Go Back</div>
       </div>
-      <div className={styles.ethBogContainerDiv} />
-      <img
-        className={styles.ethBogota1Icon}
-        alt=""
-        src="../ethbogota-1@2x.png"
-        onClick={onEthBogota1ImageClick}
-      />
+      <div className="eth-bog-container-div" />
     </div>
   );
 };

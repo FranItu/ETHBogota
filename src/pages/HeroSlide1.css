@@ -1,0 +1,136 @@
+.j-balla-photography-6wmfpgnd-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1732px;
+  height: 1266px;
+  object-fit: cover;
+}
+.identify-yourself-to-begin-thi {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  display: inline-block;
+}
+.id-button-text-div {
+  position: absolute;
+  height: 27.5%;
+  width: 70.99%;
+  top: 36.25%;
+  right: 14.32%;
+  bottom: 36.25%;
+  left: 14.7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.id-epicbutton-div {
+  position: absolute;
+  top: 526px;
+  left: 543px;
+  width: 355px;
+  height: 80px;
+  cursor: pointer;
+}
+.main-lines-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1462px;
+  height: 920px;
+}
+.proof-of-ayahuasca {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.embrace-the-serpent {
+  margin: 0;
+  font-size: 35px;
+}
+.proof-of-ayahuasca-embrace-the,
+.subsribe-to-support-community- {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  display: inline-block;
+}
+.subsribe-to-support-community- {
+  top: 260px;
+  left: 40px;
+  font-size: 24px;
+  font-family: var(--font-abhaya-libre-medium);
+  width: 677px;
+}
+.serpent-1-icon {
+  position: absolute;
+  top: 173px;
+  left: 265px;
+  width: 227px;
+  height: 87px;
+  object-fit: cover;
+}
+.maintitle-header-div,
+.rectangle-div {
+  position: absolute;
+  top: 158px;
+  left: 0;
+  width: 756px;
+  height: 328px;
+}
+.rectangle-div {
+  top: 232px;
+  left: 166px;
+  background-color: var(--color-gray-400);
+  width: 425px;
+  height: 107px;
+}
+.ayahuasca-logo-white-w-1-icon {
+  position: absolute;
+  top: 0;
+  left: 276px;
+  width: 204px;
+  height: 194px;
+  object-fit: cover;
+}
+.main-header-div {
+  position: absolute;
+  top: 24px;
+  left: 342px;
+  width: 756px;
+  height: 486px;
+  font-size: 98px;
+}
+.container-div {
+  position: absolute;
+  top: 701px;
+  left: 1290px;
+  background-color: var(--color-gray-400);
+  width: 150px;
+  height: 145px;
+}
+.hero-slide-1-div {
+  position: relative;
+  background-color: var(--common-white);
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 16px;
+  color: var(--common-white);
+  font-family: var(--font-abhaya-libre-extrabold);
+}

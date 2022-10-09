@@ -1,0 +1,34 @@
+.subcontainer-scroll-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 358px;
+  height: 363px;
+}
+.arrow-left-icon,
+.arrow-right-icon {
+  position: absolute;
+  top: 182px;
+  left: 7px;
+  width: 36px;
+  height: 29px;
+  object-fit: cover;
+}
+.arrow-right-icon {
+  left: 320px;
+}
+.container-scroll-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 358px;
+  height: 363px;
+}
+.scroll-page-div {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 363px;
+  overflow: hidden;
+}

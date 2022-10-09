@@ -5,10 +5,10 @@ import {
   useLocation,
 } from "react-router-dom";
 import HeroSlide1 from "./pages/HeroSlide1";
-import FrameComponent from "./pages/FrameComponent";
 import ScrollPage from "./pages/ScrollPage";
-import TextSubsContainer from "./pages/TextSubsContainer";
 import HeroSlide11 from "./pages/HeroSlide11";
+import SnakeContainer from "./pages/SnakeContainer";
+import TextSubsContainer from "./pages/TextSubsContainer";
 import { useEffect } from "react";
 
 function App() {
@@ -32,19 +32,19 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/frame-8":
-        title = "";
-        metaDescription = "";
-        break;
       case "/scroll-page":
         title = "";
         metaDescription = "";
         break;
-      case "/textsubs-container":
+      case "/heroslide1":
         title = "";
         metaDescription = "";
         break;
-      case "/heroslide1":
+      case "/snake-container":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/textsubs-container":
         title = "";
         metaDescription = "";
         break;
@@ -68,13 +68,13 @@ function App() {
     <Routes>
       <Route path="/" element={<HeroSlide1 />} />
 
-      <Route path="/frame-8" element={<FrameComponent />} />
-
       <Route path="/scroll-page" element={<ScrollPage />} />
 
-      <Route path="/textsubs-container" element={<TextSubsContainer />} />
-
       <Route path="/heroslide1" element={<HeroSlide11 />} />
+
+      <Route path="/snake-container" element={<SnakeContainer />} />
+
+      <Route path="/textsubs-container" element={<TextSubsContainer />} />
     </Routes>
   );
 }

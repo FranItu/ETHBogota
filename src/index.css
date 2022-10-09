@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre+ExtraBold:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre+Medium:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: var(--font);
+  height: max-content;
+  overflow-x: hidden;
+}
+:root {
+  /* fonts */
+  --font-abhaya-libre-medium: "Abhaya Libre Medium";
+  --font-abhaya-libre-extrabold: "Abhaya Libre ExtraBold";
+  --font-abhaya-libre: "Abhaya Libre";
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 20px;
+  --font-size-lg: 22px;
+  --font-size-xl: 28px;
+
+  /* Colors */
+  --common-white: #fff;
+  --color-gray-100: #fafafa;
+  --color-gray-200: rgba(217, 217, 217, 0.5);
+  --color-gray-300: rgba(255, 255, 255, 0);
+  --color-gray-400: rgba(217, 217, 217, 0);
+
+  /* border radiuses */
+  --br-md: 9.26px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  @media screen and (min-width: 280px) and (max-width: 1080px){}

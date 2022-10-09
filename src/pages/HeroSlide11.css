@@ -1,0 +1,253 @@
+.j-balla-photography-6wmfpgnd-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1732px;
+  height: 1266px;
+  object-fit: cover;
+}
+.rectangle-div5,
+.rectangle-icon2 {
+  position: absolute;
+  border-radius: var(--br-md);
+}
+.rectangle-div5 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    76.87deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.26)
+  );
+  backdrop-filter: blur(12px);
+}
+.rectangle-icon2 {
+  height: 98.33%;
+  width: 99.19%;
+  top: 0.83%;
+  right: 0.4%;
+  bottom: 0.83%;
+  left: 0.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 0.1;
+  mix-blend-mode: soft-light;
+}
+.yasun-natural-reserve {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.eco-tourism-subscription-membe {
+  margin: 0;
+}
+.yasun-natural-reserve-container {
+  line-break: anywhere;
+  width: 100%;
+}
+.yasun-natural-reserve-eco-tou {
+  position: absolute;
+  height: 5.71%;
+  width: 58.19%;
+  top: 15.83%;
+  right: 20.81%;
+  bottom: 78.46%;
+  left: 21%;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+}
+.inner-daintree-container-div,
+.tour-line-div2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.tour-line-div2 {
+  height: 79.34%;
+  width: 79.03%;
+  top: 13.44%;
+  right: 10.42%;
+  bottom: 7.22%;
+  left: 10.56%;
+  font-size: var(--font-size-xl);
+}
+.container-second-macro-div {
+  position: absolute;
+  top: -10px;
+  left: 150px;
+  border: 2px solid var(--common-white);
+  box-sizing: border-box;
+  width: 1140px;
+  height: 920px;
+  opacity: 0.4;
+}
+.rectangle-icon3 {
+  position: absolute;
+  top: 697px;
+  left: 1290px;
+  width: 150px;
+  height: 2px;
+  opacity: 0.4;
+}
+.header-icon {
+  position: absolute;
+  top: 24px;
+  left: 152px;
+  width: 1136px;
+  height: 97px;
+}
+.star-1-icon,
+.star-2-icon,
+.star-3-icon {
+  position: absolute;
+  top: 825px;
+  left: 192px;
+  width: 20.79px;
+  height: 26.92px;
+  overflow: hidden;
+  opacity: 0.4;
+}
+.star-1-icon,
+.star-2-icon {
+  top: 205px;
+  left: 1373px;
+}
+.star-1-icon {
+  top: 64px;
+  left: 47px;
+  width: 43.71px;
+  height: 48.04px;
+}
+.lines-icon {
+  position: absolute;
+  top: 697px;
+  left: 0;
+  width: 150px;
+  height: 2px;
+}
+.right-macro-container-div {
+  position: absolute;
+  top: 285px;
+  left: 768px;
+  background-color: var(--color-gray-400);
+  width: 448px;
+  height: 492px;
+}
+.subscribe-container-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #485b59;
+  width: 359px;
+  height: 61px;
+}
+.subsribe-text-div {
+  position: absolute;
+  top: 17px;
+  left: 44px;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  display: inline-block;
+  width: 272px;
+  height: 28px;
+}
+.subscribe-button-div {
+  position: absolute;
+  top: 667px;
+  left: 540px;
+  width: 359px;
+  height: 61px;
+  font-family: var(--font-abhaya-libre-extrabold);
+}
+.nft-subcontainer-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(217, 217, 217, 0.1);
+  width: 358px;
+  height: 363px;
+}
+.nft-green-icon {
+  position: absolute;
+  top: 107px;
+  left: 91px;
+  border-radius: 41px;
+  width: 177px;
+  height: 150px;
+  object-fit: cover;
+  mix-blend-mode: saturation;
+}
+.nft-container-div {
+  position: absolute;
+  top: 296px;
+  left: 541px;
+  width: 358px;
+  height: 363px;
+}
+.ayahuasca-logo-white-w-2-icon {
+  position: absolute;
+  top: 23px;
+  left: 619px;
+  width: 204px;
+  height: 194px;
+  object-fit: cover;
+}
+.goback-button-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100px;
+  background-color: var(--color-gray-200);
+  width: 115px;
+  height: 47px;
+}
+.go-back-text {
+  position: absolute;
+  top: 10px;
+  left: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 27px;
+}
+.goback-container-div {
+  position: absolute;
+  top: 751px;
+  left: 664px;
+  width: 115px;
+  height: 47px;
+  cursor: pointer;
+  color: var(--color-gray-100);
+  font-family: var(--font-abhaya-libre);
+}
+.eth-bog-container-div {
+  position: absolute;
+  top: 689px;
+  left: 1290px;
+  background-color: var(--color-gray-400);
+  width: 150px;
+  height: 145px;
+}
+.hero-slide-1-div1 {
+  position: relative;
+  background-color: var(--common-white);
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--common-white);
+  font-family: var(--font-abhaya-libre-medium);
+}

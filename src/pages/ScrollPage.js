@@ -1,20 +1,12 @@
-import styles from "./ScrollPage.module.css";
+import "./ScrollPage.css";
 
 const ScrollPage = () => {
   return (
-    <div className={styles.scrollPageDiv}>
-      <div className={styles.containerScrollDiv}>
-        <div className={styles.subcontainerScrollDiv} />
-        <img
-          className={styles.arrowLeftIcon}
-          alt=""
-          src="../arrow-left@2x.png"
-        />
-        <img
-          className={styles.arrowRightIcon}
-          alt=""
-          src="../arrow-right@2x.png"
-        />
+    <div className="scroll-page-div">
+      <div className="container-scroll-div">
+        <div className="subcontainer-scroll-div" />
+        <img className="arrow-left-icon" alt="" src="../arrow-left@2x.png" />
+        <img className="arrow-right-icon" alt="" src="../arrow-right@2x.png" />
       </div>
     </div>
   );

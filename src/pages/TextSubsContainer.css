@@ -1,0 +1,41 @@
+.title-subscription-div {
+  position: absolute;
+  top: 150px;
+  left: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 27px;
+}
+.visit-the-commuity {
+  margin-bottom: 10px;
+}
+.visit-the-commuity-and-experie {
+  margin: 0;
+  padding-left: 37px;
+}
+.text-subscription-div {
+  position: absolute;
+  top: 197px;
+  left: 72px;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+  color: var(--common-white);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 451px;
+  height: 330px;
+}
+.text-subs-container-div {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 610px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-abhaya-libre);
+}
