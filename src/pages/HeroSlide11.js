@@ -16,12 +16,11 @@ const HeroSlide11 = () => {
             <span className="yasun-natural-reserve-container">
               <p className="yasun-natural-reserve">Yasuní Natural Reserve</p>
               <p className="eco-tourism-subscription-membe">
-                Eco-tourism subscription membership
+                {'\n'} Eco-Tourism Subscription Membership
               </p>
             </span>
           </div>   
         </div>
-      <div className="container-second-macro-div" />
       <div className="right-macro-container-div" />
       <div className="subscribe-button-div">
         <div className="subscribe-container-div" />
@@ -29,7 +28,7 @@ const HeroSlide11 = () => {
       </div>
       <div className="nft-container-div">
         <div className="nft-subcontainer-div" />
-        <img className="nft-green-icon" alt="" src="../nft-green-icon@2x.png" />
+        <img className="nft-green-icon" alt="" src="../ShamanSnake1.png" />
       </div>
       <img
         className="ayahuasca-logo-white-w-2-icon"
