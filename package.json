@@ -42,6 +42,6 @@
         ]
     },
     "devDependencies": {
-        "stream": "^0.0.2"     
+        "stream": "^0.0.2"
     }
 }

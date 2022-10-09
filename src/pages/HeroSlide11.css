@@ -42,6 +42,9 @@
   align-items: center;
   justify-content: center;
 }
+.texto {
+  margin-top: -1px;
+}
 .eco-tourism-subscription-membe {
   margin: 0;
   padding-left: 90px;
