@@ -62,6 +62,7 @@
 }
 .yasun-natural-reserve-eco-tou {
   position: absolute;
+  margin-left: 80px;
   height: 5.71%;
   width: 100%;
   top: 20%;
@@ -160,6 +161,7 @@
   background-color: #485b59;
   width: 359px;
   height: 61px;
+  opacity: .7;
 }
 .subsribe-text-div {
   position: absolute;
@@ -282,6 +284,7 @@
   cursor: pointer;
   color: var(--color-gray-100);
   font-family: var(--font-abhaya-libre);
+  opacity: .85;
 }
 .eth-bog-container-div {
   position: fixed;
