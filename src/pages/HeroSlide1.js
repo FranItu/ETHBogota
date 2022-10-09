@@ -18,11 +18,6 @@ const HeroSlide1 = () => {
   return (
     <>
       <div className="hero-slide-1-div">
-        <img
-          className="j-balla-photography-6wmfpgnd-icon"
-          alt=""
-          src="../jballaphotography6wmfpgnd--qunsplash-1@2x.png"
-        />
         <div className="id-epicbutton-div" onClick={openEnterProfileContainer}>
           <div className="id-button-text-div">
             <div className="identify-yourself-to-begin-thi">
@@ -31,7 +26,6 @@ const HeroSlide1 = () => {
           </div>
           <img className="ellipse-icon" alt="" src="../ellipse.svg" />
         </div>
-        <img className="main-lines-icon" alt="" src="../main-lines.svg" />
         <div className="main-header-div">
           <div className="maintitle-header-div">
             <div className="proof-of-ayahuasca-embrace-the">

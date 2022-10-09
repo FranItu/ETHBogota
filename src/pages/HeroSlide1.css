@@ -1,11 +1,4 @@
-.j-balla-photography-6wmfpgnd-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1732px;
-  height: 1266px;
-  object-fit: cover;
-}
+
 .identify-yourself-to-begin-thi {
   position: relative;
   letter-spacing: -0.02em;
@@ -57,7 +50,7 @@
   margin-block-end: 0;
 }
 .embrace-the-serpent {
-  margin: 0;
+  margin: -60px;
   font-size: 35px;
 }
 .proof-of-ayahuasca-embrace-the,
@@ -125,7 +118,7 @@
 }
 .hero-slide-1-div {
   position: relative;
-  background-color: var(--common-white);
+  background-color: var(--black);
   width: 100%;
   height: 900px;
   overflow: hidden;

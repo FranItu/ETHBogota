@@ -70,7 +70,7 @@ function App() {
 
       <Route path="/scroll-page" element={<ScrollPage />} />
 
-      <Route path="/heroslide1" element={<HeroSlide11 />} />
+      <Route path="/heroslide2" element={<HeroSlide11 />} />
 
       <Route path="/snake-container" element={<SnakeContainer />} />
 
