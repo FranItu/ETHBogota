@@ -14,14 +14,29 @@ const HeroSlide1 = () => {
   const closeEnterProfileContainer = useCallback(() => {
     setEnterProfileContainerOpen(false);
   }, []);
+  
+  const audio = new Audio("/audio_poay_1.mp3")
+  const audio2 = new Audio("/audio_poay_2.mp3")
+
+  const start = () => {
+    audio.play()
+  }
+  const start2 = () => {
+    audio2.play()
+  }
+  
 
   return (
     <>
       <div className="hero-slide-1-div">
-        <div className="id-epicbutton-div" onClick={openEnterProfileContainer}>
+        <div className="id-epicbutton-div" onClick={() => {
+          openEnterProfileContainer();
+          start2();
+          start();
+        }}>
           <div className="id-button-text-div">
             <div className="identify-yourself-to-begin-thi">
-              Identify yourself to begin this journey....
+              Get Started!
             </div>
           </div>
           <img className="ellipse-icon" alt="" src="../ellipse.svg" />
@@ -37,10 +52,12 @@ const HeroSlide1 = () => {
               </p>
             </div>
             <div className="subsribe-to-support-community-">
-              Subsribe to support Community-Based Natural Reserves and unlock
+              Subscribe to support Community-Based Natural Reserves and unlock
               unique eco-tourism experiences with your NFT.
             </div>
-            <img className="serpent-1-icon" alt="" src="../serpent-1@2x.png" />
+          
+            <img className="serpent-1-icon" alt="" src="../serpent-1@2x.png" onClick={() => start()} />
+            
           </div>
           <div className="rectangle-div" />
           <img
