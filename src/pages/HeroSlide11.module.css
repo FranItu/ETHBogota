@@ -1,0 +1,326 @@
+.jBallaPhotography6wmFPgndIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1732px;
+  height: 1266px;
+  object-fit: cover;
+}
+.rectangleDiv,
+.rectangleIcon {
+  position: absolute;
+  border-radius: var(--br-md);
+}
+.rectangleDiv {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    76.87deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.26)
+  );
+  backdrop-filter: blur(12px);
+}
+.rectangleIcon {
+  height: 98.33%;
+  width: 99.19%;
+  top: 0.83%;
+  right: 0.4%;
+  bottom: 0.83%;
+  left: 0.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 0.1;
+  mix-blend-mode: soft-light;
+}
+.groupDiv,
+.rectangleIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 98.86%;
+  top: 0;
+  right: 1.14%;
+  bottom: 0;
+  left: 0;
+}
+.rectangleIcon1 {
+  height: 0.14%;
+  width: 87.37%;
+  top: 22.59%;
+  right: 8.37%;
+  bottom: 77.27%;
+  left: 4.26%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleIcon2,
+.rectangleIcon3 {
+  position: absolute;
+  width: 86.85%;
+  top: 33.93%;
+  right: -4.32%;
+  left: 17.47%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+}
+.rectangleIcon3 {
+  height: 71.31%;
+  width: 0.09%;
+  top: 23.4%;
+  right: 50.75%;
+  bottom: 5.29%;
+  left: 49.17%;
+  max-height: 100%;
+}
+.yasunNaturalReserve {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.ecoTourismSubscriptionMembe {
+  margin: 0;
+}
+.yasunNaturalReserveContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.ecuadorDiv,
+.yasunNaturalReserveEcoTou {
+  position: absolute;
+  height: 5.71%;
+  width: 57.52%;
+  top: 14.15%;
+  right: 0;
+  bottom: 80.14%;
+  left: 42.48%;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+}
+.ecuadorDiv {
+  height: 14.28%;
+  width: 19.81%;
+  top: 20.73%;
+  right: 73.77%;
+  bottom: 64.98%;
+  left: 6.43%;
+  font-size: 37px;
+  line-height: 132%;
+  text-transform: uppercase;
+  font-family: var(--font-abhaya-libre);
+  justify-content: center;
+  opacity: 0.6;
+}
+.mapYasuni1Icon {
+  position: absolute;
+  top: 178.05px;
+  left: 94px;
+  width: 471.99px;
+  height: 489px;
+  object-fit: cover;
+}
+.innerDaintreeContainerDiv,
+.tourLineDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.tourLineDiv {
+  height: 79.34%;
+  width: 79.94%;
+  top: 13.44%;
+  right: 9.5%;
+  bottom: 7.22%;
+  left: 10.56%;
+  font-size: var(--font-size-xl);
+}
+.containerSecondMacroDiv {
+  position: absolute;
+  top: -10px;
+  left: 150px;
+  border: 2px solid var(--common-white);
+  box-sizing: border-box;
+  width: 1140px;
+  height: 920px;
+  opacity: 0.4;
+}
+.rectangleIcon4 {
+  position: absolute;
+  top: 697px;
+  left: 1290px;
+  width: 150px;
+  height: 2px;
+  opacity: 0.4;
+}
+.headerIcon {
+  position: absolute;
+  top: 24px;
+  left: 152px;
+  width: 1136px;
+  height: 97px;
+}
+.star1Icon,
+.star2Icon,
+.star3Icon {
+  position: absolute;
+  top: 825px;
+  left: 192px;
+  width: 20.79px;
+  height: 26.92px;
+  overflow: hidden;
+  opacity: 0.4;
+}
+.star1Icon,
+.star2Icon {
+  top: 205px;
+  left: 1373px;
+}
+.star1Icon {
+  top: 64px;
+  left: 47px;
+  width: 43.71px;
+  height: 48.04px;
+}
+.linesIcon {
+  position: absolute;
+  top: 697px;
+  left: 0;
+  width: 150px;
+  height: 2px;
+}
+.rightMacroContainerDiv {
+  position: absolute;
+  top: 285px;
+  left: 768px;
+  background-color: var(--color-gray-500);
+  width: 448px;
+  height: 492px;
+}
+.subscribeContainerDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 359px;
+  height: 61px;
+}
+.subsribeTextDiv {
+  position: absolute;
+  top: 17px;
+  left: 44px;
+  letter-spacing: -0.02em;
+  line-height: 140%;
+  display: inline-block;
+  width: 272px;
+  height: 28px;
+}
+.subscribeButtonDiv {
+  position: absolute;
+  top: 717px;
+  left: 812px;
+  width: 359px;
+  height: 61px;
+  font-family: var(--font-abhaya-libre-extrabold);
+}
+.nftSubcontainerDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 358px;
+  height: 363px;
+}
+.nftGreenIcon {
+  position: absolute;
+  top: 108px;
+  left: 91px;
+  border-radius: 41px;
+  width: 177px;
+  height: 150px;
+  object-fit: cover;
+  mix-blend-mode: saturation;
+}
+.nftContainerDiv {
+  position: absolute;
+  top: 335px;
+  left: 812px;
+  width: 358px;
+  height: 363px;
+}
+.ayahuascaLogoWhiteW2Icon {
+  position: absolute;
+  top: 23px;
+  left: 619px;
+  width: 204px;
+  height: 194px;
+  object-fit: cover;
+}
+.gobackButtonDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100px;
+  background-color: var(--color-gray-300);
+  width: 115px;
+  height: 47px;
+}
+.goBackText {
+  position: absolute;
+  top: 10px;
+  left: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 27px;
+}
+.gobackContainerDiv {
+  position: absolute;
+  top: 753px;
+  left: 18px;
+  width: 115px;
+  height: 47px;
+  cursor: pointer;
+  color: var(--color-gray-100);
+  font-family: var(--font-abhaya-libre);
+}
+.ethBogContainerDiv {
+  position: absolute;
+  top: 689px;
+  left: 1290px;
+  background-color: var(--color-gray-500);
+  width: 150px;
+  height: 145px;
+}
+.ethBogota1Icon {
+  position: absolute;
+  top: 717px;
+  left: 1332px;
+  width: 79px;
+  height: 116px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.heroSlide1Div {
+  position: relative;
+  background-color: var(--common-white);
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--common-white);
+  font-family: var(--font-abhaya-libre-medium);
+}
